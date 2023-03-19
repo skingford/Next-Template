@@ -9,7 +9,9 @@ const path = require("path");
 const nextConfig = {
   // 自定义构建目录
   distDir: "build",
+
   reactStrictMode: true,
+
   // 添加环境变量
   env: {
     API_URL: "http://localhost:3000/api",
